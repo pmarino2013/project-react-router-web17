@@ -1,0 +1,35 @@
+.fondo {
+  min-height: 100vh; 
+  width: 100%;       
+  position: relative; 
+  background: radial-gradient( 
+    120% 120% at 50% 100%, 
+    #000000 40%, 
+    #2b0707 100%
+  );
+  
+  z-index: 0; 
+}
+.form-fondo {
+  background: rgba(255, 255, 255, 0.05); 
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px); 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.3),
+              0 0 20px rgba(0, 0, 0, 0.5); 
+}
+
+.form-fondo h1 {
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.7); 
+  margin-bottom: 30px;
+}
+
+.form-fondo label {
+  color: #e0e0e0;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+.form-control{
+    background-color: #4444449d;
+    border: 1px solid rgb(32, 32, 32);
+}

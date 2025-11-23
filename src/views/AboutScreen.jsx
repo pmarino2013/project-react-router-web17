@@ -4,7 +4,7 @@ const alumnos = [
   {
     nombre: "Juan Manuel Vargas",
     descripcion: "Estudiante de desarrollo web.",
-    foto: "",
+    foto: "https://avatars.githubusercontent.com/u/71360998?v=4",
     github:"https://github.com/juanmv32",
     linkedin: "https://www.linkedin.com/in/juan-manuel-vargas-32b462268/"
   },
@@ -42,19 +42,19 @@ const AboutScreen = () => {
     </p>
 
      {/* MENTOR */}
-      <h2 className="mb-3 text-center">Mentor</h2>
       <div className="card mb-4 shadow-sm">
+      <h2 className=" text-center card-header">Mentor</h2>
         <div className="row g-0">
-          <div className="col-md-3">
+          <div className="col-md-3 ">
             <img
               src="https://avatars.githubusercontent.com/u/35234004?v=4"
-              className="img-fluid rounded-start"
+              className="img-fluid w-100 "
               alt="Mentor"
             />
           </div>
 
           <div className="col-md-9 d-flex align-items-center">
-            <div className="card-body">
+            <div className="card-body px-2 py-0">
               <h4 className="card-title">Pablo Daniel Marino</h4>
               <p className="card-text">
                 Mentor encargado de guiar el proyecto, resolver dudas complejas y orientar a los
@@ -83,13 +83,13 @@ const AboutScreen = () => {
       </div>
 
       {/* TUTOR */}
-      <h2 className="mb-3 text-center">Tutor</h2>
       <div className="card mb-5 shadow-sm">
+      <h2 className="text-center card-header">Tutor</h2>
         <div className="row g-0">
           <div className="col-md-3">
             <img
               src="https://avatars.githubusercontent.com/u/174360040?v=4"
-              className="img-fluid rounded-start"
+              className="img-fluid w-100"
               alt="Tutor"
             />
           </div>
@@ -121,7 +121,7 @@ const AboutScreen = () => {
           </div>
         </div>
       </div>
-
+{/* agregar de que se encargo cada grupo??? */}
     {/* ESTUDIANTES */}
     <h2 className="mb-4">Grupo 3</h2>  
     <div className="row g-4">
@@ -129,16 +129,16 @@ const AboutScreen = () => {
         <div key={index} className="col-md-3">
           <div className="card h-100 shadow-sm d-flex flex-column">
             <img src={alumno.foto} className="card-img-top" alt={alumno.nombre} />
-            <div className="card-body d-flex flex-column bg-success bg-gradient bg-opacity-1">
+            <div className="card-body d-flex flex-column bg-body-secondary bg-gradient bg-opacity-1">
               <h5 className="card-title">{alumno.nombre}</h5>
               <p className="card-text flex-grow-1 overflow-hidden">{alumno.descripcion}</p>
-              <div className="card" style={{width: "18rem"}}>
+              <div className="card container-fluid" /* style={{width: "auto"}} */>
                 <ul className="list-group list-group-flush ">
-                  <li className="list-group-item d-flex justify-space-between align-items-center gap-3 ">
-                    <a href={alumno.github}>
-                      <img src="https://cdn-icons-png.flaticon.com/128/733/733609.png" alt="github" width={"30px"} />
+                  <li className="list-group-item d-flex justify-content-start align-items-center gap-3 p-2 ">
+                    <a href={alumno.github} target="blanck">
+                      <img src="https://cdn-icons-png.flaticon.com/128/733/733609.png" alt="github" width={"30px"}  />
                     </a>
-                    <a href={alumno.linkedin}>
+                    <a href={alumno.linkedin} target="blanck">
                       <img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="linkedin" width={"30px"} />
                     </a>
                   </li>

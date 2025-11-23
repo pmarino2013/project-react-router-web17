@@ -5,21 +5,30 @@ const alumnos = [
     nombre: "Juan Manuel Vargas",
     descripcion: "Estudiante de desarrollo web.",
     foto: "",
+    github:"https://github.com/juanmv32",
+    linkedin: "https://www.linkedin.com/in/juan-manuel-vargas-32b462268/"
   },
   {
     nombre: "Benjamin Ignacio Pogonza",
     descripcion: "Estudiante de desarrollo web.",
     foto:"https://avatars.githubusercontent.com/u/104796060?v=4",
+    github:"https://github.com/benja78945",
+    linkedin: "https://www.linkedin.com/in/benjamin-pogona/"
   },
   {
     nombre: "Martin Hernan Rodriguez Mayol",
     descripcion: "Estudiante de desarrollo web.",
     foto: "https://avatars.githubusercontent.com/u/220537658?v=4",
+    github:"https://github.com/Nitram135",
+    linkedin: "https://www.linkedin.com/in/martin-hernan-rodriguez-mayol-4a4a4a4a/"
   },
   {
     nombre: "Cristian Miguel Bustos",
     descripcion: "Estudiante de desarrollo web.",
     foto: "https://avatars.githubusercontent.com/u/225981118?v=4",
+    github:"https://github.com/Cristhianbsts",
+    linkedin: "https://www.linkedin.com/in/cristian-miguel-bustos-a8019426a/"
+    
   }
 ];
 
@@ -60,9 +69,17 @@ const AboutScreen = () => {
                 <span className="badge bg-warning text-dark">JavaScript</span>
                 <span className="badge bg-secondary">Express</span>
               </div>
+                <div className="d-flex flex-wrap gap-2 mt-2">                      
+                <a href="https://github.com/pmarino2013" target="blanck">
+                <img src="https://cdn-icons-png.flaticon.com/128/733/733609.png" alt="Github" width={"35px"} />
+                </a>
+                <a href="https://www.linkedin.com/in/pablomarinotech/" target="blanck">
+                <img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="linkedin" width={"35px"} /></a>     
+                </div>
             </div>
           </div>
         </div>
+
       </div>
 
       {/* TUTOR */}
@@ -93,21 +110,40 @@ const AboutScreen = () => {
                 <span className="badge bg-warning text-dark">JavaScript</span>
                 <span className="badge bg-secondary">Express</span>
               </div>
+                <div className="d-flex flex-wrap gap-2 mt-2">                      
+                <a href="https://github.com/Yappur" target="blanck">
+                <img src="https://cdn-icons-png.flaticon.com/128/733/733609.png" alt="Github" width={"35px"} />
+                </a>
+                <a href="https://www.linkedin.com/in/mateoyapur/" target="blanck">
+                <img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="linkedin" width={"35px"} /></a>     
+                </div>
             </div>
           </div>
         </div>
       </div>
 
     {/* ESTUDIANTES */}
-    <h2 className="mb-4">Grupo 3</h2>
+    <h2 className="mb-4">Grupo 3</h2>  
     <div className="row g-4">
       {alumnos.map((alumno,index)=> (
-        <div key={index} className="col-md-3" >
-          <div className="card h-100 shadow-sm">
+        <div key={index} className="col-md-3">
+          <div className="card h-100 shadow-sm d-flex flex-column">
             <img src={alumno.foto} className="card-img-top" alt={alumno.nombre} />
-            <div className="card-body">
+            <div className="card-body d-flex flex-column bg-success bg-gradient bg-opacity-1">
               <h5 className="card-title">{alumno.nombre}</h5>
-              <p className="card-text">{alumno.descripcion}</p>
+              <p className="card-text flex-grow-1 overflow-hidden">{alumno.descripcion}</p>
+              <div className="card" style={{width: "18rem"}}>
+                <ul className="list-group list-group-flush ">
+                  <li className="list-group-item d-flex justify-space-between align-items-center gap-3 ">
+                    <a href={alumno.github}>
+                      <img src="https://cdn-icons-png.flaticon.com/128/733/733609.png" alt="github" width={"30px"} />
+                    </a>
+                    <a href={alumno.linkedin}>
+                      <img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="linkedin" width={"30px"} />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

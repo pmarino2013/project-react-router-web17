@@ -54,7 +54,7 @@ const AboutScreen = () => {
           </div>
 
           <div className="col-md-9 d-flex align-items-center">
-            <div className="card-body px-2 py-0">
+            <div className="card-body">
               <h4 className="card-title">Pablo Daniel Marino</h4>
               <p className="card-text">
                 Mentor encargado de guiar el proyecto, resolver dudas complejas y orientar a los

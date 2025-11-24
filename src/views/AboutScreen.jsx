@@ -48,7 +48,7 @@ const AboutScreen = () => {
           <div className="col-md-3 ">
             <img
               src="https://avatars.githubusercontent.com/u/35234004?v=4"
-              className="img-fluid w-100 "
+              className="img-fluid w-100 h-100 object-fit-cover "
               alt="Mentor"
             />
           </div>
@@ -89,7 +89,7 @@ const AboutScreen = () => {
           <div className="col-md-3">
             <img
               src="https://avatars.githubusercontent.com/u/174360040?v=4"
-              className="img-fluid w-100"
+              className="img-fluid w-100 h-100 object-fit-cover"
               alt="Tutor"
             />
           </div>

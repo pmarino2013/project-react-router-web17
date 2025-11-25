@@ -3,9 +3,9 @@ import '../css/HomeScreen.css'
 
 const HomeScreen = () => {
   return <>
-    <section className="HomeScreen container-fluid d-flex h-100 flex-column gap-3 justify-content-center align-items-center">
+    <section className="HomeScreen container my-2">
 
-      <div className="row HomeScreen-Principal align-self-center container p-5">
+      <div className="row HomeScreen-Principal d-flex flex-column justify-content-center">
         <div className="col-12 text-center">
           <p className="display-3 fw-bold">RollingCode School</p>
         </div>
@@ -14,11 +14,11 @@ const HomeScreen = () => {
         </div>
       </div>
 
-      <div className="container row">
+      <div className="row mt-2 container">
 
-        <div className="col-3 align-self-center d-none d-md-block">
-          <div>
-            <img className="w-100" src="/src/assets/coding-1853305_1280.jpg" alt="imagen" />
+        <div className="col-md-3 d-none d-md-block">
+          <div className="HomeScreen-Objetivos-imagen">
+            
           </div>
         </div>
 
@@ -27,7 +27,7 @@ const HomeScreen = () => {
           <div className="row">
 
             <div className="col-12">
-              <p>Objetivos</p>
+              <p className="m-2">Objetivos</p>
             </div>
 
             <div className="col-12">

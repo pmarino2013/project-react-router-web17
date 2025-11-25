@@ -11,3 +11,21 @@
 .HomeScreen-Principal p{
     color:white;
 }
+
+@media (min-width: 570px) {
+    .HomeScreen-Principal{
+        height: 100vh;
+    }
+}
+
+.HomeScreen-Objetivos-imagen{
+        background-image: url(/src/assets/coding-1853305_1280.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+    }
+
+@media (min-width:570px){
+    
+}

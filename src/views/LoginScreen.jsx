@@ -1,7 +1,10 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "../css/login.css";
 
 const LoginScreen = () => {
+   const navigate = useNavigate();
+
   const [formValue, setFormValue] = useState({
   correo: "",
   password: ""
@@ -44,15 +47,37 @@ const LoginScreen = () => {
       nombre: "Juan"
     }
   ];
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if(formValue.correo && formValue.password){
+      const usuarioEncontrado = usuarios.find(
+          (u) => 
+            u.correo === formValue.correo &&
+          u.password === formValue.password
+        );  
+      if(usuarioEncontrado){
+        navigate("/");
+      } else{
+        alert("Usuario o contraseña incorrectos");
+      }
+    }else{
+      alert("Correo o password vacio");
+    }
+  };
   return (
     <div className="container-fluid fondo">
       <div className="row vh-100  align-items-center">
         <div className="col-12 col-md-6 offset-md-3  p-4 rounded-5 form-fondo">
           <h1 className="text-center my-5">Inicia tu sesión</h1>
-          <form className="">
+          <form onSubmit={handleSubmit}>
             <div className="mb-3">
               <label>Correo electrónico</label>
-              <input type="email" className="form-control" name="correo"  onChange={handleChamge} />
+              <input type="email" 
+              className="form-control" 
+              name="correo"
+              value={formValue.correo}  
+              onChange={handleChamge} />
             </div>
             <div className="mb-3">
               <label>Contraseña</label>
@@ -61,7 +86,7 @@ const LoginScreen = () => {
                 className="form-control"
                 name="password"
                 onChange={handleChamge}
-              
+                value={formValue.password}
               />
             </div>
             <div className="mb-3 d-grid">

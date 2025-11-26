@@ -11,9 +11,9 @@ const RoutesPrincipal = () => {
       <Route path="/" element={<PagesLayout />}>
         <Route index element={<HomeScreen />} />
         <Route path="about" element={<AboutScreen />} />
-        <Route path="*" element={<Error404Screen />} />
       </Route>
     <Route path="login" element={<LoginScreen/>}/>
+       <Route path="*" element={<Error404Screen />} />
     </Routes>
   );
 };

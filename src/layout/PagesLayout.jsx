@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import FooterApp from "../components/FooterApp";
 
 const PagesLayout = () => {
   return (
@@ -7,7 +8,9 @@ const PagesLayout = () => {
       <main>
         <Outlet />
       </main>
-      <footer>{/* componente footer  */}</footer>
+      <footer>
+        <FooterApp />
+      </footer>
     </>
   );
 };

@@ -73,17 +73,16 @@ const proyectosData = {
       ]
     },
     {
-      "nombre_proyecto": "Sistema de Reserva de Citas 'BookEase'",
-      "descripcion_proyecto": "Una solución SaaS para que clínicas y consultorios gestionen las reservas de citas online, envíen recordatorios automáticos y sincronicen calendarios.",
-      "imagen_muestra": "https://example.com/images/bookease_scheduler.png",
-      "url":"https://www.google.com/?hl=es&zx=1764027080978&no_sw_cr=1",
+      "nombre_proyecto": "Sistema de Reserva de Citas",
+      "descripcion_proyecto": "Este proyecto consiste en el desarrollo de una Aplicación Web simple y funcional diseñada para gestionar el registro de citas médicas para una clínica veterinaria.",
+      "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/cbqwvmjtdx/2025-11-26T16_58_14.png",
+      "url":"https://rolling-taller.vercel.app/",
       "participantes": [
-        "Gustavo Peña (Jefe de Desarrollo)",
-        "Natalia Vidal (Desarrolladora Frontend)",
-        "Roberto Quiroga (Desarrollador Backend)"
+        "Celeste Soto",
+        " Facundo Vera"
       ],
     "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
+        "Frontend: React ,Html y Css",
       ]
     },
     {

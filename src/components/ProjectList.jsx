@@ -4,7 +4,7 @@ import proyectosData from '/src/db/data.js';
 const ProjectList = () => {
   const proyectos = proyectosData.proyectos;
   return (
-    <div>
+    <div className='container-fluid '>
       {
         proyectos.map((proyecto, index) => {
           return (

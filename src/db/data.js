@@ -2,67 +2,74 @@ const proyectosData = {
 
   "proyectos": [
     {
-      "nombre_proyecto": "Plataforma de E-Learning 'EduVerse'",
-      "descripcion_proyecto": "Un sistema completo de gestión de aprendizaje (LMS) que ofrece cursos interactivos, seguimiento de progreso y foros de discusión en tiempo real.",
-      "imagen_muestra": "https://example.com/images/eduverse_dashboard.png",
-      "url":"https://www.google.com/?hl=es&zx=1764027080978&no_sw_cr=1",
+      "nombre_proyecto": "Plataforma de Steaming: Suricata TV",
+      "descripcion_proyecto": "",
+      "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/jzrrihvfla/2025-11-26T11_41_50.png",
+      "url":"https://zuricata-tv.netlify.app/#s5",
       "participantes": [
-        "Martín Gómez (Líder de Desarrollo)",
-        "Lucía Pérez (Desarrolladora Frontend)",
-        "Diego Torres (Desarrollador Backend)",
-        "Paula Ríos (Especialista en QA)"
+        " Ruben Lopez",
+        "Bautista Bornemann",
+        "Luis Estrada Royer",
+        "Matias Pelegrina ",
+        "Lisandro Carmona"
       ],
       "tecnologias_usadas": [
-        "Frontend: Next.js, TypeScript, Chakra UI",
-        "Backend: Python, Django, PostgreSQL",
-        "Otros: Docker, Redis, Stripe API"
+        "Frontend: Html, Css y Bootstrap",
       ]
     },
     {
-      "nombre_proyecto": "Aplicación de Recetas 'TasteBud'",
-      "descripcion_proyecto": "Una aplicación móvil y web para descubrir, guardar y compartir recetas. Incluye un planificador de comidas semanal y una lista de compras automática.",
-      "imagen_muestra": "https://example.com/images/tastebud_app.jpg",
+      "nombre_proyecto": "Blog: Fauna Argentina ",
+      "descripcion_proyecto": "https://faunaarg.netlify.app/",
+      "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/lrnwehgneq/2025-11-26T11_39_08.png",
       "url":"https://www.google.com/?hl=es&zx=1764027080978&no_sw_cr=1",
       "participantes": [
-        "Javier Cruz (Arquitecto de Soluciones)",
-        "Elena Soto (Desarrolladora Móvil Flutter)",
-        "Andrés Núñez (API Developer)"
+        "      Benjamin Pogonza    ",
+        "Alejandra Morales  ",
+        "Franco Tessari    ",
+        "Gonzalo Farias",
+        "Sergio Gaspar"
+    
+    
+  
+      
+
       ],
-      "tecnologias_usadas": [
-        "Desarrollo Móvil: Flutter, Dart",
-        "Base de Datos: MongoDB, Atlas",
-        "Servidor: Node.js, Express.js"
+     "tecnologias_usadas": [
+        "Frontend: Html, Css y Bootstrap",
       ]
     },
     {
-      "nombre_proyecto": "CRM para Startups 'ConnectHub'",
-      "descripcion_proyecto": "Un sistema de gestión de relaciones con clientes (CRM) ligero y escalable, enfocado en startups, con seguimiento de leads y automatización de correos.",
-      "imagen_muestra": "https://example.com/images/connecthub_crm.png",
-      "url":"https://www.google.com/?hl=es&zx=1764027080978&no_sw_cr=1",
+      "nombre_proyecto": "Blog: Cine Retro",
+      "descripcion_proyecto": "",
+      "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/xzxgoecngv/2025-11-26T11_37_57.png",
+      "url":"https://pelisretros.netlify.app/",
       "participantes": [
-        "Sofía Giménez (Líder UX/UI)",
-        "Ricardo Velez (Desarrollador Full Stack)",
-        "Mariana Leyes (Especialista en Integraciones)"
+        " Samuel Efrain   ",
+        "Michael Medina      ",
+        "Cristian Bustos      ",
+        "Alejo Veliz"
+           
+
+
+
       ],
       "tecnologias_usadas": [
-        "Framework: Ruby on Rails",
-        "Frontend: HTML5, SCSS, Stimulus.js",
-        "Base de Datos: MySQL"
+        "Frontend: Html, Css y Bootstrap",
       ]
     },
     {
-      "nombre_proyecto": "Juego 2D 'Cosmic Runner'",
-      "descripcion_proyecto": "Un juego de plataformas 2D estilo 'runner' infinito con gráficos pixel art. Desarrollado para web y móviles utilizando un motor de juego ligero.",
-      "imagen_muestra": "https://example.com/images/cosmicrunner_game.gif",
-      "url":"https://www.google.com/?hl=es&zx=1764027080978&no_sw_cr=1",
+      "nombre_proyecto": "Plataforma de Steaming: E-Film",
+      "descripcion_proyecto": "",
+      "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/sqorimzwjl/2025-11-26T11_45_25.png",
+      "url":"https://serene-kitten-9b5714.netlify.app/",
       "participantes": [
-        "Felipe Castro (Desarrollador de Juegos)",
-        "Valeria Ortiz (Diseñadora de Arte Pixel)"
+        "  Celeste Soto      ",
+        "Facundo Vera   ",
+        "Salome Romero"  
+
       ],
-      "tecnologias_usadas": [
-        "Motor de Juego: Phaser 3",
-        "Lenguaje: JavaScript ES6",
-        "Arte: Aseprite"
+     "tecnologias_usadas": [
+        "Frontend: Html, Css y Bootstrap",
       ]
     },
     {
@@ -75,10 +82,8 @@ const proyectosData = {
         "Natalia Vidal (Desarrolladora Frontend)",
         "Roberto Quiroga (Desarrollador Backend)"
       ],
-      "tecnologias_usadas": [
-        "Backend: PHP, Laravel",
-        "Frontend: Vue.js, Vuex",
-        "Integración: Google Calendar API, Twilio"
+    "tecnologias_usadas": [
+        "Frontend: Html, Css y Bootstrap",
       ]
     },
     {
@@ -90,10 +95,8 @@ const proyectosData = {
         "Héctor Barrios (Ingeniero de Datos)",
         "Camila Ramos (Desarrolladora Frontend React)"
       ],
-      "tecnologias_usadas": [
-        "Visualización: React, D3.js, Chart.js",
-        "Datos: Python Pandas, Apache Kafka",
-        "Cloud: Google Cloud Platform (GCP)"
+       "tecnologias_usadas": [
+        "Frontend: Html, Css y Bootstrap",
       ]
     },
     {
@@ -106,10 +109,8 @@ const proyectosData = {
         "Laura Benítez (Experta en Seguridad)",
         "Pedro Alarcón (Diseñador UX)"
       ],
-      "tecnologias_usadas": [
-        "Framework: MERN Stack (MongoDB, Express, React, Node)",
-        "Geolocalización: Mapbox API",
-        "Autenticación: JWT"
+       "tecnologias_usadas": [
+        "Frontend: Html, Css y Bootstrap",
       ]
     },
     {
@@ -121,10 +122,8 @@ const proyectosData = {
         "Juan Pablo Díaz (Desarrollador Principal)",
         "Mónica Vera (Tester y Manager de Comunidad)"
       ],
-      "tecnologias_usadas": [
-        "Lenguaje: JavaScript, Node.js",
-        "Librería: Discord.js",
-        "Hosting: Heroku"
+        "tecnologias_usadas": [
+        "Frontend: Html, Css y Bootstrap",
       ]
     },
     {
@@ -137,10 +136,8 @@ const proyectosData = {
         "Daniela Ríos (Ingeniera de Gráficos)",
         "Emilio Funes (Optimizador de Rendimiento)"
       ],
-      "tecnologias_usadas": [
-        "Frontend: WebAssembly (Wasm), React",
-        "Gráficos: HTML5 Canvas API",
-        "Librerías: Fabric.js"
+       "tecnologias_usadas": [
+        "Frontend: Html, Css y Bootstrap",
       ]
     },
     {
@@ -153,10 +150,8 @@ const proyectosData = {
         "Gisela Montes (Desarrolladora Backend)",
         "Hugo Benítez (Desarrollador Frontend)"
       ],
-      "tecnologias_usadas": [
-        "Lenguaje: Go (Golang)",
-        "Base de Datos: CockroachDB",
-        "Frontend: Svelte, Redux"
+     "tecnologias_usadas": [
+        "Frontend: Html, Css y Bootstrap",
       ]
     }
   ]

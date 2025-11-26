@@ -1,0 +1,28 @@
+.footer-app {
+  background-color: #212529;
+  color: #aeb2a0;
+  font-size: 1.2rem;
+
+  & .nav {
+    border-bottom: 2px solid #495057;
+  }
+
+  & a {
+    margin-left: 10px;
+  }
+
+  & .nav-link,
+  a,
+  i {
+    text-decoration: none;
+    color: #aeb2a0;
+    transition: 0.2s ease-out;
+    & :hover {
+      color: white;
+    }
+  }
+
+  & .nav-link:hover {
+    color: white;
+  }
+}

@@ -28,11 +28,6 @@ const proyectosData = {
         "Franco Tessari    ",
         "Gonzalo Farias",
         "Sergio Gaspar"
-    
-    
-  
-      
-
       ],
      "tecnologias_usadas": [
         "Frontend: Html, Css y Bootstrap",
@@ -40,7 +35,7 @@ const proyectosData = {
     },
     {
       "nombre_proyecto": "Blog: Cine Retro",
-      "descripcion_proyecto": "",
+      "descripcion_proyecto": "Un blog dedicado a cubrir las películas clásicas entre los 80s y 2000.",
       "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/xzxgoecngv/2025-11-26T11_37_57.png",
       "url":"https://pelisretros.netlify.app/",
       "participantes": [
@@ -86,13 +81,14 @@ const proyectosData = {
       ]
     },
     {
-      "nombre_proyecto": "Dashboard de Analítica Financiera 'DataFlow'",
-      "descripcion_proyecto": "Una herramienta de visualización de datos en tiempo real para rastrear métricas financieras, con gráficos interactivos y alertas personalizadas.",
-      "imagen_muestra": "https://example.com/images/dataflow_charts.png",
-      "url":"https://www.google.com/?hl=es&zx=1764027080978&no_sw_cr=1",
+      "nombre_proyecto": "Paleta de colores",
+      "descripcion_proyecto": "Este es un ejercicio del taller práctico de Rolling Code School",
+      "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/shjxoxgick/2025-11-27T15_09_11.png",
+      "url":"https://administradordecolores.netlify.app/",
       "participantes": [
-        "Héctor Barrios (Ingeniero de Datos)",
-        "Camila Ramos (Desarrolladora Frontend React)"
+        "Pablo Padilla",
+        "Samuel Fernandez",
+        "Maria Alejandra Morales"
       ],
        "tecnologias_usadas": [
         "Frontend: Html, Css y Bootstrap",

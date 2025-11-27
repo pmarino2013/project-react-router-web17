@@ -1,10 +1,11 @@
-import CardProject from './CardProject'
+
+import CardProject from '../components/CardProject';
 import proyectosData from '/src/db/data.js';
 
-const ProjectList = () => {
+const ProjectScreen = () => {
   const proyectos = proyectosData.proyectos;
   return (
-    <div className='container-fluid '>
+    <div className='container d-flex flex-wrap justify-content-center'>
       {
         proyectos.map((proyecto, index) => {
           return (
@@ -16,4 +17,4 @@ const ProjectList = () => {
   )
 }
 
-export default ProjectList
+export default ProjectScreen

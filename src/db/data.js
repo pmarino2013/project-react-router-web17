@@ -7,19 +7,18 @@ const proyectosData = {
       "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/jzrrihvfla/2025-11-26T11_41_50.png",
       "url":"https://zuricata-tv.netlify.app/#s5",
       "participantes": [
-        " Ruben Lopez",
+        "Ruben Lopez",
         "Bautista Bornemann",
         "Luis Estrada Royer",
         "Matias Pelegrina ",
         "Lisandro Carmona"
       ],
-      "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
+      "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}
       ]
     },
     {
       "nombre_proyecto": "Blog: Fauna Argentina ",
-      "descripcion_proyecto": "https://faunaarg.netlify.app/",
+      "descripcion_proyecto": "",
       "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/lrnwehgneq/2025-11-26T11_39_08.png",
       "url":"https://www.google.com/?hl=es&zx=1764027080978&no_sw_cr=1",
       "participantes": [
@@ -29,9 +28,7 @@ const proyectosData = {
         "Gonzalo Farias",
         "Sergio Gaspar"
       ],
-     "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+     "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     },
     {
       "nombre_proyecto": "Blog: Cine Retro",
@@ -48,9 +45,7 @@ const proyectosData = {
 
 
       ],
-      "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+      "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     },
     {
       "nombre_proyecto": "Plataforma de Steaming: E-Film",
@@ -63,9 +58,7 @@ const proyectosData = {
         "Salome Romero"  
 
       ],
-     "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+     "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     },
     {
       "nombre_proyecto": "Sistema de Reserva de Citas",
@@ -76,9 +69,7 @@ const proyectosData = {
         "Celeste Soto",
         " Facundo Vera"
       ],
-    "tecnologias_usadas": [
-        "Frontend: React ,Html y Css",
-      ]
+    "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     },
     {
       "nombre_proyecto": "Paleta de colores",
@@ -90,23 +81,17 @@ const proyectosData = {
         "Samuel Fernandez",
         "Maria Alejandra Morales"
       ],
-       "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+      "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     },
     {
-      "nombre_proyecto": "Marketplace P2P 'SwapZone'",
-      "descripcion_proyecto": "Una plataforma de intercambio de bienes y servicios entre usuarios (Peer-to-Peer). Incluye geolocalización de ofertas y sistema de reputación.",
-      "imagen_muestra": "https://example.com/images/swapzone_marketplace.png",
-      "url":"https://www.google.com/?hl=es&zx=1764027080978&no_sw_cr=1",
+      "nombre_proyecto": "Karmicas'",
+      "descripcion_proyecto": "Proyecto Karmicas de venta de productos varios: tecnología, cuidado personal, accesorios",
+      "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/xplrkdotdm/Captura.PNG",
+      "url":"https://proyecto-karmicas.netlify.app/",
       "participantes": [
-        "Iván Morales (Full Stack Developer)",
-        "Laura Benítez (Experta en Seguridad)",
-        "Pedro Alarcón (Diseñador UX)"
+        "Soto, Celeste"
       ],
-       "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+      "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     },
     {
       "nombre_proyecto": "Bot de Asistencia para Discord 'HelperBot'",
@@ -117,9 +102,7 @@ const proyectosData = {
         "Juan Pablo Díaz (Desarrollador Principal)",
         "Mónica Vera (Tester y Manager de Comunidad)"
       ],
-        "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+      "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     },
     {
       "nombre_proyecto": "Editor de Fotos Online 'PixelPro'",
@@ -131,9 +114,7 @@ const proyectosData = {
         "Daniela Ríos (Ingeniera de Gráficos)",
         "Emilio Funes (Optimizador de Rendimiento)"
       ],
-       "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+      "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     },
     {
       "nombre_proyecto": "Sistema de Tickets 'SupportQueue'",
@@ -145,9 +126,7 @@ const proyectosData = {
         "Gisela Montes (Desarrolladora Backend)",
         "Hugo Benítez (Desarrollador Frontend)"
       ],
-     "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+     "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     }
   ]
 }

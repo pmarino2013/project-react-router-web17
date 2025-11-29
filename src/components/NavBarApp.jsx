@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../css/NavBar.css"
 
 
 const NavBarApp = () => {
@@ -9,7 +10,7 @@ const NavBarApp = () => {
   return (
 
  <div>
-<nav className="navbar navbar-expand-lg bg-body-tertiary">
+<nav className="navbar navbar-expand-lg navbar-app">
   <div className="container-fluid">
     <Link className="navbar-brand" to="/"><img src="https://cdn-icons-png.flaticon.com/512/6062/6062646.png" alt="Logo web17" width="40" /></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +25,7 @@ const NavBarApp = () => {
           <Link className="nav-link" to="favorite">Favoritos</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="https://web.rollingcodeschool.com/" to="#" target="blank">Contacto</a>
+          <a className="nav-link" href="https://web.rollingcodeschool.com/"  target="_blank">Contacto</a>
         </li>
         <li className="nav-item">
           <Link className="nav-link" aria-disabled="true"

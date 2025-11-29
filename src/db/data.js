@@ -2,7 +2,7 @@ const proyectosData = {
 
   "proyectos": [
     {
-      "nombre_proyecto": "Plataforma de Steaming: Suricata TV",
+      "nombre_proyecto": " Suricata TV",
       "descripcion_proyecto": "",
       "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/jzrrihvfla/2025-11-26T11_41_50.png",
       "url":"https://zuricata-tv.netlify.app/#s5",
@@ -17,7 +17,7 @@ const proyectosData = {
       ]
     },
     {
-      "nombre_proyecto": "Blog: Fauna Argentina ",
+      "nombre_proyecto": " Fauna Argentina ",
       "descripcion_proyecto": "",
       "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/lrnwehgneq/2025-11-26T11_39_08.png",
       "url":"https://www.google.com/?hl=es&zx=1764027080978&no_sw_cr=1",
@@ -31,7 +31,7 @@ const proyectosData = {
      "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     },
     {
-      "nombre_proyecto": "Blog: Cine Retro",
+      "nombre_proyecto": " Cine Retro",
       "descripcion_proyecto": "Un blog dedicado a cubrir las películas clásicas entre los 80s y 2000.",
       "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/xzxgoecngv/2025-11-26T11_37_57.png",
       "url":"https://pelisretros.netlify.app/",
@@ -48,7 +48,7 @@ const proyectosData = {
       "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     },
     {
-      "nombre_proyecto": "Plataforma de Steaming: E-Film",
+      "nombre_proyecto": " E-Film",
       "descripcion_proyecto": "",
       "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/sqorimzwjl/2025-11-26T11_45_25.png",
       "url":"https://serene-kitten-9b5714.netlify.app/",
@@ -86,7 +86,7 @@ const proyectosData = {
     {
       "nombre_proyecto": "Karmicas'",
       "descripcion_proyecto": "Proyecto Karmicas de venta de productos varios: tecnología, cuidado personal, accesorios",
-      "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/xplrkdotdm/Captura.PNG",
+      "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/tsekujksir/2025-11-29T18_54_48.png",
       "url":"https://proyecto-karmicas.netlify.app/",
       "participantes": [
         "Soto, Celeste"

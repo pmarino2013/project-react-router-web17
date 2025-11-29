@@ -1,6 +1,16 @@
-.tarjeta{
-    background: #F2F2F2;
+
+.tarjeta {
+    background-color: #2e3a45;
+    transition: transform 0.3s ease; 
 }
-.img-tarjeta{
-    border-radius: 10px;
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+.boton {
+    position: absolute; 
+    bottom: 1rem; 
+    right: 1rem; 
+    z-index: 10; 
 }

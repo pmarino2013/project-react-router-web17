@@ -3,7 +3,8 @@ import PagesLayout from "../layout/PagesLayout";
 import HomeScreen from "../views/HomeScreen";
 import AboutScreen from "../views/AboutScreen";
 import Error404Screen from "../views/Error404Screen";
-import LoginScreen from "../views/LoginScreen"
+import LoginScreen from "../views/LoginScreen";
+import UserProfileScreen from "../views/UserProfileScreen";
 
 const RoutesPrincipal = () => {
   return (
@@ -11,9 +12,10 @@ const RoutesPrincipal = () => {
       <Route path="/" element={<PagesLayout />}>
         <Route index element={<HomeScreen />} />
         <Route path="about" element={<AboutScreen />} />
+        <Route path="profile" element={<UserProfileScreen />} />
       </Route>
-    <Route path="login" element={<LoginScreen/>}/>
-       <Route path="*" element={<Error404Screen />} />
+      <Route path="login" element={<LoginScreen />} />
+      <Route path="*" element={<Error404Screen />} />
     </Routes>
   );
 };

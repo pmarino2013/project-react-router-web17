@@ -6,7 +6,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <RoutesPrincipal />
-      <ProjectList/>
+      <ProjectList />
     </BrowserRouter>
   );
 };

@@ -13,4 +13,11 @@
     bottom: 1rem; 
     right: 1rem; 
     z-index: 10; 
+    width: auto;
+    height: auto;
+    font-size: small;
+}
+
+.fondo-modal{
+    background-color: #2E3A45;
 }

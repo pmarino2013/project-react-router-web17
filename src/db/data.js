@@ -13,7 +13,7 @@ const proyectosData = {
         "Matias Pelegrina ",
         "Lisandro Carmona"
       ],
-      "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}
+      "tecnologias_usadas": [{"html":"Html", "css":"Css", "bootstrap":"Bootstrap"}
       ]
     },
     {
@@ -28,7 +28,7 @@ const proyectosData = {
         "Gonzalo Farias",
         "Sergio Gaspar"
       ],
-     "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
+     "tecnologias_usadas": [{"html":"Html", "css":"Css", "bootstrap":"Bootstrap"}]
     },
     {
       "nombre_proyecto": " Cine Retro",
@@ -45,7 +45,7 @@ const proyectosData = {
 
 
       ],
-      "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
+      "tecnologias_usadas": [{"html":"Html", "css":"Css","bootstrap":"Bootstrap"}]
     },
     {
       "nombre_proyecto": " E-Film",
@@ -58,7 +58,7 @@ const proyectosData = {
         "Salome Romero"  
 
       ],
-     "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
+     "tecnologias_usadas": [{"html":"Html", "css":"Css", "bootstrap":"Bootstrap"}]
     },
     {
       "nombre_proyecto": "Sistema de Reserva de Citas",
@@ -84,14 +84,14 @@ const proyectosData = {
       "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     },
     {
-      "nombre_proyecto": "Karmicas'",
+      "nombre_proyecto": "Karmicas",
       "descripcion_proyecto": "Proyecto Karmicas de venta de productos varios: tecnología, cuidado personal, accesorios",
       "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/tsekujksir/2025-11-29T18_54_48.png",
       "url":"https://proyecto-karmicas.netlify.app/",
       "participantes": [
         "Soto, Celeste"
       ],
-      "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
+      "tecnologias_usadas": [{"html":"Html", "css":"Css", "bootstrap":"Bootstrap"}]
     },
     {
       "nombre_proyecto": "Bot de Asistencia para Discord 'HelperBot'",

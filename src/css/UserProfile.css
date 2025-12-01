@@ -1,0 +1,40 @@
+.user-profile {
+  min-height: 50vh;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+}
+
+.user-profile aside {
+  & span,
+  p,
+  label {
+    font-size: 1.2rem;
+  }
+
+  & i {
+    width: 20px;
+    text-align: center;
+  }
+
+  & .info i {
+    margin-right: 10px;
+  }
+
+  & label {
+    font-weight: 500;
+  }
+
+  & img {
+    object-fit: cover;
+    width: 230px;
+    aspect-ratio: 1/1;
+    padding: 0;
+  }
+  & input {
+    background-color: white;
+    border: 1px solid rgb(184, 184, 184);
+  }
+  & .editar {
+    width: 70%;
+  }
+}

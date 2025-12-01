@@ -48,7 +48,7 @@ const AboutScreen = () => {
           <div className="col-md-3 ">
             <img
               src="https://avatars.githubusercontent.com/u/35234004?v=4"
-              className="img-fluid w-100 h-100 object-fit-cover "
+              className="img-fluid w-100 h-100 object-fit-cover"
               alt="Mentor"
             />
           </div>
@@ -110,7 +110,7 @@ const AboutScreen = () => {
                 <span className="badge bg-warning text-dark">JavaScript</span>
                 <span className="badge bg-secondary">Express</span>
               </div>
-                <div className="d-flex flex-wrap gap-2 mt-2">                      
+                <div className="d-flex flex-wrap gap-2 mt-2 ">                      
                 <a href="https://github.com/Yappur" target="blanck">
                 <img src="https://cdn-icons-png.flaticon.com/128/733/733609.png" alt="Github" width={"35px"} />
                 </a>

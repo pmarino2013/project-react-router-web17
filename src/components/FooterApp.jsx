@@ -25,23 +25,32 @@ const FooterApp = () => {
           </li>
         </ul>
         {/* Copyright y redes */}
-        <div className="d-flex justify-content-between align-items-center pb-3">
-          <div className="align-items-center">
+        <div className="row flex-column-reverse flex-sm-row justify-content-between align-items-center pb-1">
+          <div className="col-10 col-sm-8 d-flex my-2 justify-content-center justify-content-sm-start ">
             <img
               src="https://universe.rollingcodeschool.com/assets/rolling-logo-2697050d.png"
               alt="rolling"
               width="25px"
             />
-            <span> &#169; RollingCode School</span>
+            <span> &#169; 2025 - RollingCode School</span>
           </div>
-          <div>
-            <a href="https://www.instagram.com/rollingcodeschool/">
+          <div className="col-12 col-sm-4 d-flex justify-content-center justify-content-sm-end social">
+            <a
+              href="https://www.instagram.com/rollingcodeschool/"
+              target="_blank"
+            >
               <i className="fa fa-2x fa-instagram" aria-hidden="true"></i>
             </a>
-            <a href="https://www.linkedin.com/company/rollingcodeschool/posts/?feedView=all">
+            <a
+              href="https://www.linkedin.com/company/rollingcodeschool/posts/?feedView=all"
+              target="_blank"
+            >
               <i className="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
             </a>
-            <a href="https://www.facebook.com/RollingCodeSchool">
+            <a
+              href="https://www.facebook.com/RollingCodeSchool"
+              target="_blank"
+            >
               <i
                 className="fa fa-2x fa-facebook-official"
                 aria-hidden="true"

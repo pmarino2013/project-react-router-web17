@@ -1,14 +1,13 @@
 .footer-app {
   background-color: #212529;
   color: #aeb2a0;
-  font-size: 1.2rem;
 
   & .nav {
     border-bottom: 2px solid #495057;
   }
 
-  & a {
-    margin-left: 10px;
+  & .social a {
+    margin: 0 10px;
   }
 
   & .nav-link,

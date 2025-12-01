@@ -2,24 +2,23 @@ const proyectosData = {
 
   "proyectos": [
     {
-      "nombre_proyecto": "Plataforma de Steaming: Suricata TV",
+      "nombre_proyecto": " Suricata TV",
       "descripcion_proyecto": "",
       "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/jzrrihvfla/2025-11-26T11_41_50.png",
       "url":"https://zuricata-tv.netlify.app/#s5",
       "participantes": [
-        " Ruben Lopez",
+        "Ruben Lopez",
         "Bautista Bornemann",
         "Luis Estrada Royer",
         "Matias Pelegrina ",
         "Lisandro Carmona"
       ],
-      "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
+      "tecnologias_usadas": [{"html":"Html", "css":"Css", "bootstrap":"Bootstrap"}
       ]
     },
     {
-      "nombre_proyecto": "Blog: Fauna Argentina ",
-      "descripcion_proyecto": "https://faunaarg.netlify.app/",
+      "nombre_proyecto": " Fauna Argentina ",
+      "descripcion_proyecto": "",
       "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/lrnwehgneq/2025-11-26T11_39_08.png",
       "url":"https://www.google.com/?hl=es&zx=1764027080978&no_sw_cr=1",
       "participantes": [
@@ -28,19 +27,12 @@ const proyectosData = {
         "Franco Tessari    ",
         "Gonzalo Farias",
         "Sergio Gaspar"
-    
-    
-  
-      
-
       ],
-     "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+     "tecnologias_usadas": [{"html":"Html", "css":"Css", "bootstrap":"Bootstrap"}]
     },
     {
-      "nombre_proyecto": "Blog: Cine Retro",
-      "descripcion_proyecto": "",
+      "nombre_proyecto": " Cine Retro",
+      "descripcion_proyecto": "Un blog dedicado a cubrir las películas clásicas entre los 80s y 2000.",
       "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/xzxgoecngv/2025-11-26T11_37_57.png",
       "url":"https://pelisretros.netlify.app/",
       "participantes": [
@@ -53,12 +45,10 @@ const proyectosData = {
 
 
       ],
-      "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+      "tecnologias_usadas": [{"html":"Html", "css":"Css","bootstrap":"Bootstrap"}]
     },
     {
-      "nombre_proyecto": "Plataforma de Steaming: E-Film",
+      "nombre_proyecto": " E-Film",
       "descripcion_proyecto": "",
       "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/sqorimzwjl/2025-11-26T11_45_25.png",
       "url":"https://serene-kitten-9b5714.netlify.app/",
@@ -68,9 +58,7 @@ const proyectosData = {
         "Salome Romero"  
 
       ],
-     "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+     "tecnologias_usadas": [{"html":"Html", "css":"Css", "bootstrap":"Bootstrap"}]
     },
     {
       "nombre_proyecto": "Sistema de Reserva de Citas",
@@ -81,36 +69,29 @@ const proyectosData = {
         "Celeste Soto",
         " Facundo Vera"
       ],
-    "tecnologias_usadas": [
-        "Frontend: React ,Html y Css",
-      ]
+    "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     },
     {
-      "nombre_proyecto": "Dashboard de Analítica Financiera 'DataFlow'",
-      "descripcion_proyecto": "Una herramienta de visualización de datos en tiempo real para rastrear métricas financieras, con gráficos interactivos y alertas personalizadas.",
-      "imagen_muestra": "https://example.com/images/dataflow_charts.png",
-      "url":"https://www.google.com/?hl=es&zx=1764027080978&no_sw_cr=1",
+      "nombre_proyecto": "Paleta de colores",
+      "descripcion_proyecto": "Este es un ejercicio del taller práctico de Rolling Code School",
+      "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/shjxoxgick/2025-11-27T15_09_11.png",
+      "url":"https://administradordecolores.netlify.app/",
       "participantes": [
-        "Héctor Barrios (Ingeniero de Datos)",
-        "Camila Ramos (Desarrolladora Frontend React)"
+        "Pablo Padilla",
+        "Samuel Fernandez",
+        "Maria Alejandra Morales"
       ],
-       "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+      "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     },
     {
-      "nombre_proyecto": "Marketplace P2P 'SwapZone'",
-      "descripcion_proyecto": "Una plataforma de intercambio de bienes y servicios entre usuarios (Peer-to-Peer). Incluye geolocalización de ofertas y sistema de reputación.",
-      "imagen_muestra": "https://example.com/images/swapzone_marketplace.png",
-      "url":"https://www.google.com/?hl=es&zx=1764027080978&no_sw_cr=1",
+      "nombre_proyecto": "Karmicas",
+      "descripcion_proyecto": "Proyecto Karmicas de venta de productos varios: tecnología, cuidado personal, accesorios",
+      "imagen_muestra": "https://d25ltszcjeom5i.cloudfront.net/329462/tsekujksir/2025-11-29T18_54_48.png",
+      "url":"https://proyecto-karmicas.netlify.app/",
       "participantes": [
-        "Iván Morales (Full Stack Developer)",
-        "Laura Benítez (Experta en Seguridad)",
-        "Pedro Alarcón (Diseñador UX)"
+        "Soto, Celeste"
       ],
-       "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+      "tecnologias_usadas": [{"html":"Html", "css":"Css", "bootstrap":"Bootstrap"}]
     },
     {
       "nombre_proyecto": "Bot de Asistencia para Discord 'HelperBot'",
@@ -121,9 +102,7 @@ const proyectosData = {
         "Juan Pablo Díaz (Desarrollador Principal)",
         "Mónica Vera (Tester y Manager de Comunidad)"
       ],
-        "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+      "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     },
     {
       "nombre_proyecto": "Editor de Fotos Online 'PixelPro'",
@@ -135,9 +114,7 @@ const proyectosData = {
         "Daniela Ríos (Ingeniera de Gráficos)",
         "Emilio Funes (Optimizador de Rendimiento)"
       ],
-       "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+      "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     },
     {
       "nombre_proyecto": "Sistema de Tickets 'SupportQueue'",
@@ -149,9 +126,7 @@ const proyectosData = {
         "Gisela Montes (Desarrolladora Backend)",
         "Hugo Benítez (Desarrollador Frontend)"
       ],
-     "tecnologias_usadas": [
-        "Frontend: Html, Css y Bootstrap",
-      ]
+     "tecnologias_usadas": [{"html":"Html", "css":"Css", "react":"React"}]
     }
   ]
 }

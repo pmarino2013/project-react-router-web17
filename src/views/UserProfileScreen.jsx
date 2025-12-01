@@ -8,19 +8,18 @@ const UserProfileScreen = () => {
     return usuarioDatos
       ? JSON.parse(usuarioDatos)
       : {
-        id: null,
-        nombre: "",
-        foto: "",
-        correo: "",
-        ciudad: "",
-        rol: "",
-        compania: "",
-        estadistica: {
-          asistencia: "",
-          proyectos: [{nombre:"",descripcion:"",tecnologias:[]}],
-          progreso: {modulo1:"",modulo2:"",proyecto:""}
-        }
-      };
+          id: null,
+          nombre: "",
+          foto: "",
+          correo: "",
+          ciudad: "",
+          rol: "",
+          compania: "",
+          estadistica: {
+            proyectos: [{ nombre: "", descripcion: "", tecnologias: [] }],
+            progreso: { modulo1: "", modulo2: "", modulo3: "" },
+          },
+        };
   }
   const [usuario, setUsuario] = useState(getUsuarioDatos());
   const [editar, setEditar] = useState(false);
@@ -36,15 +35,35 @@ const UserProfileScreen = () => {
     rol: "Usuario",
     compania: "RollingCode",
     estadistica: {
-      asistencia: "100%",
       proyectos: [
-        { nombre: "Página web e-commerce", descripcion: "Página Web de venta de productos de Joyeria", tecnologias: ["html", "css", "bootstrap"] },
-        { nombre: "Blog de peliculas", descripcion: "Blog de información y analisis de peliculas", tecnologias: ["html", "css", "bootstrap"] },
-        { nombre: "Gestion de e-commerce", descripcion: "Página web para gestión de productos de joyeria con Javascript", tecnologias: ["html", "css", "bootstrap", "javascript"] },
-        { nombre: "Administrador de colores", descripcion: "Carga borrado y listado de colores", tecnologias: ["html", "css", "bootstrap", "javascript", "react"] },
+        {
+          nombre: "Página web e-commerce",
+          descripcion: "Página Web de venta de productos de Joyeria",
+          tecnologias: ["html", "css", "bootstrap"],
+        },
+        {
+          nombre: "Blog de peliculas",
+          descripcion: "Blog de información y analisis de peliculas",
+          tecnologias: ["html", "css", "bootstrap"],
+        },
+        {
+          nombre: "Gestion de e-commerce",
+          descripcion:
+            "Página web para gestión de productos de joyeria con Javascript",
+          tecnologias: ["html", "css", "bootstrap", "javascript"],
+        },
+        {
+          nombre: "Administrador de colores",
+          descripcion: "Carga borrado y listado de colores",
+          tecnologias: ["css", "bootstrap", "react"],
+        },
       ],
-      progreso: { modulo1: "Completo", modulo2: "Completo", proyecto: "En curso" }
-    }
+      progreso: {
+        modulo1: "Completo",
+        modulo2: "En curso",
+        modulo3: "Pendiente",
+      },
+    },
   };
 
   //Conseguir el perfil del localstorage/base de datos
@@ -87,12 +106,11 @@ const UserProfileScreen = () => {
   };
 
   return (
-
-    <div className="user-profile container-lg my-5 py-2" >
+    <div className="user-profile container-lg my-5">
       {cargando ? (
-        <div className="row flex-column flex-md-row" >
+        <div className="row flex-column flex-md-row justify-content-around">
           {/* Sección con los datos del usuario */}
-          <aside className="col-sm-12 col-md-4 align-self-center">
+          <aside className="col-sm-12 col-md-4 mb-2">
             <div className="imagen d-flex flex-column mb-2">
               {/* Nombre, foto y rol */}
               <h1 className="text-center">{usuario.nombre}</h1>
@@ -104,15 +122,15 @@ const UserProfileScreen = () => {
               <p className="text-center">Usuario</p>
               <div className="row row-cols-1 justify-content-center info">
                 {/* Ciudad, Correo y Companía */}
-                <span className="col">
+                <span className="col-8 col-md-12">
                   <i className="col fa fa-map-marker" aria-hidden="true"></i>
                   {usuario.ciudad}
                 </span>
-                <span className="col">
+                <span className="col-8 col-md-12">
                   <i className="fa fa-envelope" aria-hidden="true"></i>
                   {usuario.correo}
                 </span>
-                <span className="col">
+                <span className="col-8 col-md-12">
                   <i className="fa fa-building" aria-hidden="true"></i>
                   {usuario.compania}
                 </span>
@@ -217,7 +235,6 @@ const UserProfileScreen = () => {
         </div>
       )}
     </div>
-
   );
 };
 

@@ -26,8 +26,8 @@
 
   & img {
     object-fit: cover;
-    height: 150px;
-    width: 150px;
+    width: 230px;
+    aspect-ratio: 1/1;
     padding: 0;
   }
   & input {

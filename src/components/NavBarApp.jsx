@@ -27,9 +27,15 @@ const NavBarApp = () => {
         <li className="nav-item">
           <a className="nav-link" href="https://web.rollingcodeschool.com/"  target="_blank">Contacto</a>
         </li>
-        <li className="nav-item me-auto">
+        <li className="nav-item">
           <Link className="nav-link" aria-disabled="true"
           to="About">Sobre Nosotros</Link>
+        </li>
+        <li className="nav-item" id="iniciar">
+          <Link className="nav-link" to="profile" aria-disabled="true">Perfil</Link>
+        </li>
+          <li className="nav-item me-auto " id="iniciar">
+          <Link className="nav-link" to="projects" aria-disabled="true">Projectos</Link>
         </li>
         <li className="nav-item " id="iniciar">
           <Link className="nav-link" to="login" aria-disabled="true">Iniciar Sesion</Link>

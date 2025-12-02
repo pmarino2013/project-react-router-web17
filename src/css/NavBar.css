@@ -1,0 +1,16 @@
+.navbar-app {
+  background-color: #212529;
+  color: #aeb2a0;
+  font-size: 1.2rem;
+  height: 30%;
+  & .nav-link,
+  a{
+    text-decoration: none;
+    color: #aeb2a0;
+    transition: 0.2s ease-out;
+
+    &:hover {
+      color: white;
+    }
+  }
+}

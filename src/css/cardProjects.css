@@ -8,6 +8,21 @@
     transform: translateY(-5px);
 }
 
+.search-navbar input {
+  background-color: #1f2a33;
+  border: 1px solid #0dcaf0 !important;
+  color: white;
+}
+
+.search-navbar input::placeholder {
+  color: #c7c7c7;
+}
+
+.search-navbar input:focus {
+  border-color: #0dcaf0 !important;
+  box-shadow: 0 0 0 0.2rem rgba(13, 202, 240, 0.25);
+}
+
 .boton {
     position: absolute; 
     bottom: 1rem; 
